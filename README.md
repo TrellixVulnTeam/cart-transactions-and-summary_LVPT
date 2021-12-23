@@ -1,6 +1,7 @@
-### Icerik
+### ICERIK
 
-Kullanıcıların sepetiteki ürünlerini listelenebildiği, ürünleri silebildiği, ürün adetinde güncelleme yapmaya olanak sağlayan `Vue` uygulaması geliştirilmesi.
+Kullanıcıların sepetiteki ürünlerini listelenebildiği, ürünleri silebildiği, ürün adetinde güncelleme yapmaya olanak sağlayan `Vue` uygulaması geliştirilmesidir.
+State Management için Vuex kullanılmıştır.
 
 ### HTML ve CSS
 

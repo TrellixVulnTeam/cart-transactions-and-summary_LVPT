@@ -1,0 +1,97 @@
+
+@import './variables.scss';
+
+.basket {
+    background: transparent;
+    display: inline-block;
+    .title {
+        padding-bottom: 10px;
+    }
+    .products {
+        width: 100%;
+        @media screen and  (max-width: $small) {
+            padding-bottom: calc(100% + 1px);
+        }
+        .product-item {
+            width: 100%;
+            display: inline-block;
+            padding:10px 0;
+            .product-img {
+                float: left;
+                width: 35%;
+                @media screen and  (max-width: $small) {
+                    width: 100%;
+                }
+                img {
+                    @media screen and  (max-width: $small) {
+                        margin-left: auto;
+                        margin-right: auto;
+                        display: flex;
+                    }
+                }
+            }
+            .product-detail {
+                padding: 0 20px;
+                display: inline-block;
+                flex-direction: column;
+                width: 50%;
+                & > div {
+                    padding-bottom: 8px;
+                }
+                @media screen and  (max-width: $small) {
+                    width: 80%;
+                }
+                .display-name {
+                    color: $light-color;
+                }
+                .price-area {
+                    display: inline-block;
+                    height: 45px;
+                    .discount-rate {
+                        float: left;
+                        background: $attention-color;
+                        padding: 0 5px;
+                        color: white;
+                        font-weight: bold;
+                        line-height: 45px;
+                    }
+                    .amount {
+                        display: inline-block;
+                        flex-direction: column;
+                        padding: 0 10px;
+                        .base-price {
+                            color: $light-color;
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+                .color, .size, .quantity {
+                    & .text {
+                        color: $light-color;
+                        padding-left: 10px;
+                        display: inline-block;
+                    }
+                    & select {
+                        background-color: $light-bg;
+                    }
+                }
+            }
+            .remove-item {
+                float: right;
+                width: 15%;
+                @media screen and  (max-width: $small) {
+                    width: 20%;
+                }
+                button {
+                    float: right;
+                    border:none;
+                    color: $attention-color;
+                    &:hover {
+                        color: white;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

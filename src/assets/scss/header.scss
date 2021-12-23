@@ -1,0 +1,18 @@
+
+@import './variables.scss';
+
+.header {
+    top: 0px;
+    height: $header-height;
+    background: transparent;
+    border-bottom: 2px solid $border-color;
+    span {
+        line-height: $header-height;
+        text-align: left;
+        letter-spacing: 8px;
+        color: #565656;
+        font-size: 36px;
+        font-family: serif;
+        opacity: 1;
+    }
+}

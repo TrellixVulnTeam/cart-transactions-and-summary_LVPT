@@ -1,0 +1,16 @@
+@import './variables.scss';
+
+.summary {
+    padding: 20px 10px;
+    background: $light-bg;
+    .summary-detail, .general-total-amount {
+        & > div {
+            padding: 7px 0px;
+        }
+        & > button {
+            width: 100%;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    }
+}

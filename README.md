@@ -1,15 +1,10 @@
-## Beymen `Frontend Development Challenge`
+### Icerik
 
-### Hedef
+kullanıcıların sepetiteki ürünlerini listelenebildiği, ürünleri silebildiği, ürün adetinde güncelleme yapmaya olanak sağlayan `Vue` uygulaması geliştirmesidir.<br>
 
-"cart-ui.jpg" tasarımına yakın bir çalışma yapılması ve kullanıcıların sepetiteki ürünlerini listelenebildiği, ürünleri silebildiği, ürün adetinde güncelleme yapmaya olanak sağlayan `Vue` uygulaması geliştirilmesi.<br>
-Uygulamanın development mode da çalışması `Frontend Development Challenge` kapsamında yeterlidir, deployment beklentisi bulunmamaktadır.<br>
-Uygulamanın modern/güncel browserlarda görüntülenebilmesi yeterlidir.<br>
+### HTML ve CSS
 
-
-### HTNL ve CSS
-
-SCSS ile kodlaman beklenmektedir. BEM veya Maintable CSS metedolojisi ile yazmanız tercihimizdir.
+SCSS ile CSS metedolojisi ile yazıldı.
 
 ### `npm run dev`
 
@@ -28,15 +23,3 @@ PUT    /cart/1
 DELETE /cart/1
 GET    /summary
 ```
-
-### Not
-
-Proje kapsamında işinizi kolaylaştırabileceğini düşündüğünüz, ihtiyaç duyduğunuz herhangi bir teknolojiyi (Flexbox, Vuex, Bootstrap Grid vb.) kullanmaktan çekinmeyin.
-`Frontend Development Challenge` projesinin işlevselliğini yitirmemesi için yaptığınız çalışmayı üçüncü kişilerle paylaşmamanızı rica ederiz.
-
-Pixel Perfect olmasına gerek yoktur.
-
-### İletişim
-
-Soru veya önerileriniz için aşağıdaki email adresine yazabilirsiniz. <br>
-naim.dogan@beymen.com

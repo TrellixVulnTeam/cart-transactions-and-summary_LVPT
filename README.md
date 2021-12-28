@@ -23,6 +23,6 @@ GET    /cart
 GET    /cart/1
 PUT    /cart/1
 DELETE /cart/1
-GET    /summary![cart-ui](https://user-images.githubusercontent.com/31936869/147282549-5aaa891b-cf64-42dd-834f-cf0b23b72d01.jpg)
+GET    /summary
 
 ```
